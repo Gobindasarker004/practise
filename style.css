@@ -1,0 +1,93 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#header-color{
+    color: orange;
+}
+
+section{
+    display: flex;
+    margin-bottom: 150px;
+    
+    
+
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+    
+}
+.half-width img{
+    width: 80%;
+  
+
+}
+.link-button{
+    text-decoration:none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: -o-linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+
+    background-repeat: no-repeat;
+    
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.main-father{
+    display: flex;
+    
+}
+.jarney{
+    color: orange;
+}
+.continer-flex{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding: 20px 50px;
+    box-shadow: 10px 10px 40px gray;
+   
+    
+border-radius: 10px;
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+footer p {
+    text-align: center;
+}
+#problem{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato) ;
+    border-image-slice: 1;
+}
+#gittu{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+}
